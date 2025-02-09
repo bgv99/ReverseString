@@ -12,6 +12,7 @@ void reverseString(char *string)
     }
 
     printf("\n");
+    free(string);
 }
 
 int main()
